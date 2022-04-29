@@ -10,4 +10,7 @@ public class Alumno {
 		apellido = ape;
 		DNI = identificador;
 	}
+	public String toString() {
+        return "Nombre: "+nombre+" Apellido: "+apellido+" DNI:"+DNI;
+    }
 }
